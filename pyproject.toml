@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gray-stim"
+version = "0.1.0"
+description = ""
+authors = ["hayapo <keep.forward1001@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gray_stim"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.6.0.66"
+matplotlib = "^3.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
